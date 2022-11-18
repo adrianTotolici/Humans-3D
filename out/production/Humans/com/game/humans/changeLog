@@ -1,0 +1,97 @@
+ ------ HUMANS ----
+ 
+ ----             v0.000.1             --------
+
+ --   ADD    --
+ -generate terrain from heightmap
+ -generate terrain texture using blend-mapping
+ -add player whit camera behind
+ -add models (tree, grass patch, flower patch)
+ -enable player movement whit terrain collision
+ -add sky box whit day/night alternation
+ -add light from sun
+ -enable forest generation
+ -enable different grass / flower patch generation
+ -add aiPlayer whit random movements on map
+ -add campfire whit dimming orange light
+ -add stone item
+ -add take option on key M and drop option of item on N
+ -add gui interface (health bar and items took)
+
+
+ ----             v0.000.2             --------
+
+ --   FIX    --
+ - fix generate random object on whole map
+ - fix generate random group of objects on whole map
+ - fix pickup object from map
+ - fix texture for trees and player
+
+ --   ADD    --
+ -add loading screen
+ -add prototype human skin whit face
+ -add mouse piking position for drop inventory objects
+ -add multiple item piking and item rotation on drop
+ -add crude inventory of items
+ -add number text on multiple items taken
+ -add tree foliage
+ -add new type of animals (wolfs)
+ -add new item wood
+ -add GUI inventory for items taken
+ -add item chooser from inventory
+
+ -- IMPROVEMENT --
+ -FPS functionality whit multiple objects to render
+ -add log whit time
+ -show specific gui items for each different item piked up
+
+
+ ----             v0.000.3             --------
+
+ --   FIX    --
+ - fix player will be generated on top of the current terrain
+ - object appear only above sea level
+
+ --   ADD    --
+ -add new item around trees on the ground (apples)
+ -add primitive water tiles
+ -add item build menu
+ -add playable game for linux
+
+ --   IMPROVEMENT --
+ -add game builder for exporting demo game
+ -add game environment setup
+ -improve classes repartition and architecture
+
+
+----             v0.000.4               --------
+
+--   FIX    --
+-repetitive draw build menu on press button
+
+--   ADD    --
+-add recipe selection from build menu whit mouse click
+-add technology logic for build menu
+-add stone axe technology
+-add camp fire technology
+
+--  IMPROVEMENT --
+-smaller writing on build menu
+-remove build menu border
+-add reflection and refraction to water title
+
+----             v0.000.5               --------
+
+--   FIX    --
+- refactoring source code
+- random generating position for items
+
+--   ADD    --
+-add rippling effect to water
+-add fresnel effect to water
+
+--  IMPROVEMENT --
+-support for multiple OpenGl version (1.3 ,3.3, 4.2 and 4.4)
+-add new random method for generating objects in the world
+-increase number of objects render on map
+-rewrite code inventory for more flexibility

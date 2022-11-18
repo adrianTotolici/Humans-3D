@@ -1,0 +1,38 @@
+/**
+ * When I wrote this, only God and I understood what I was doing
+ * Now, God only knows
+ */
+package eu.toolBox;
+
+public class EngineConstants {
+
+    /** Window icon path */
+    public static String ICON_PATH = "/resource/icon/torch16.png";
+
+    /** Resource path when game is in release mode */
+    public static String OPEN_GL_MODE_FILE_PATH = "openGl/openGLSL/";
+
+    /** Resource path when game is in development mode. */
+//    public static String OPEN_GL_MODE_FILE_PATH = "src/eu/openGLSL/";
+
+    /** Window width when game is in window mode.*/
+    public static int WINDOW_WIDTH = 640;
+
+    /** Window height when game is in window mode.*/
+    public static int WINDOW_HEIGHT = 480;
+
+    /** Flag used to activate and deactivate water in the world */
+    public static boolean ACTIVE_WATER = false;
+
+    /** Window name  */
+    public static String WINDOW_NAME = "Humans v0.000.5";
+
+    /** Boolean value indicating if thw window is full screen, */
+    public static boolean FULL_SCREEN = false;
+
+    /** Boolean value indicating */
+    public static boolean ACTIVE_LOG = true;
+
+    /** Frames per seconds when updating window */
+    public static int FRAMES_PER_SECONDS = 120;
+}
